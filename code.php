@@ -1,4 +1,3 @@
 <?php
-    $output = shell_exec('ls');
-    echo htmlspecialchars($output);
+    echo "PHP script is running";
 ?>
