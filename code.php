@@ -1,5 +1,5 @@
 <?php
-$url = $_POST['urlInput'];
+$url = 'https://google.com';
 $url = str_replace(array("[", "]", "{", "}"), "", $url);
 $content = shell_exec("curl " . escapeshellcmd($url));
 if ($content !== false) {
