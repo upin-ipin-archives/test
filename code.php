@@ -1,4 +1,7 @@
 <?php
-    $output = shell_exec('cat /readflag');
-    echo $output;
+    if (function_exists('shell_exec')) {
+        echo "shell_exec() is available";
+    } else {
+        echo "shell_exec() is disabled";
+    }
 ?>
