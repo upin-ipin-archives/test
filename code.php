@@ -1,5 +1,3 @@
 <?php
-header("Content-Type: text/plain");
-echo shell_exec('touch /tmp/nice.txt');
+echo shell_exec('/readflag');
 ?>
-hello
