@@ -3,5 +3,5 @@
     $output = shell_exec('ls');
 
     // Output the result
-    echo "<pre>$output</pre>";
+    echo $output;
 ?>
