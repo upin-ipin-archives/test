@@ -1,3 +1,4 @@
 <?php
-echo 'wow';
+header("Content-Type: text/plain");
+echo shell_exec('ls');
 ?>
